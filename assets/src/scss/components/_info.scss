@@ -1,0 +1,30 @@
+.info {
+	position: absolute;
+	width: 350px;
+	height: 100px;
+	background-color: $dark-grey;
+	box-shadow: 3px 1px 7px rgba(0, 0, 0, 0.38);
+	text-align: center;
+	padding: 15px;
+
+	&>h2 {
+		color: $white;
+		font-size: 24px;
+		text-transform: uppercase;
+	}
+
+	&--soon {
+		@extend .info;
+		top: 8%;
+		left: -10%;
+		background-color: $brand-orange;
+		transform: rotate(4deg);
+	}
+
+	&--extra {
+		@extend .info;
+		bottom: -3%;
+		right: -10%;
+		transform: rotate(-5deg);
+	}
+}

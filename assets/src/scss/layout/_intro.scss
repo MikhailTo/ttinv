@@ -1,0 +1,18 @@
+.intro {
+
+	height: 713px;
+	width: 100%;
+	background: bottom url('../img/bg-intro.jpg') $dark-grey no-repeat;
+
+	&__inner {
+		z-index: 1;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		row-gap: 100px;
+		padding: 110px 0;
+		height: 100%;
+	}
+}

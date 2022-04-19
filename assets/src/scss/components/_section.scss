@@ -1,0 +1,17 @@
+section {
+
+    &.benefit,
+    &.description,
+    &.cards,
+    &.feedback {
+        padding: 108px 0;
+    }
+
+    &:nth-child(odd){
+        background-color: $white;
+    }
+
+    &:nth-child(even){
+        background-color: $light-grey;
+    }
+}

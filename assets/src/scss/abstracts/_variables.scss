@@ -1,0 +1,146 @@
+
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family first
+/// @type List
+$text-font-first: 'Open Sans', sans-serif !default;
+/// Regular font family second
+/// @type List
+$text-font-second: 'Raleway', sans-serif !default;
+
+/// White
+/// @type Color
+$white: rgb(255, 255, 255) !default;
+
+/// Black
+/// @type Color
+$black: rgb(0, 0, 0) !default;
+
+/// Copy text color
+/// @type Color
+$text-color: $black !default;
+
+/// Main header color
+/// @type Color
+$bg-header: $white !default;
+
+/// Light grey
+/// @type Color
+$light-grey: rgb(245, 245, 245) !default;
+
+/// Mid grey
+/// @type Color
+$mid-grey: rgb(134, 135, 139) !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: rgb(48, 48, 48) !default;
+
+/// Brand color
+/// @type Color
+$brand-orange: #ff8b29 !default;
+
+/// Light orange
+/// @type Color
+$mid-orange: rgb(241, 135, 47) !default;
+
+/// Dark orange (active)
+/// @type Color
+$dark-orange: rgb(199, 93, 7) !default;
+
+/// Mid red
+/// @type Color
+$mid-red: rgb(220, 53, 69) !default;
+
+/// Dark red
+/// @type Color
+$dark-red: rgba(220, 53, 69, 0.051) !default;
+
+/// Light yellow
+/// @type Color
+$light-yellow: rgb(239, 200, 72) !default;
+
+/// Medium yellow (hover)
+/// @type Color
+$mid-yellow: rgb(234, 181, 52) !default;
+
+/// Dark yellow (active)
+/// @type Color
+$dark-yellow: rgb(229, 167, 34) !default;
+
+/// Light green
+/// @type Color
+$light-green: rgb(0, 202, 116) !default;
+
+/// Medium green (hover)
+/// @type Color
+$mid-green: rgb(0, 188, 108) !default;
+
+/// Dark green (active)
+/// @type Color
+$dark-green: rgb(0, 170, 98) !default;
+
+
+
+
+
+
+
+
+/// Border radius
+/// @type Radius
+$sml-radius: 3px !default;
+
+
+///Colors of buttons
+
+/// Light white
+/// @type Color
+$light-white: rgb(255, 255, 255) !default;
+
+/// Medium white (hover)
+/// @type Color
+$mid-white: rgba(255, 255, 255, 0.9) !default;
+
+/// Dark white (active)
+/// @type Color
+$dark-white: rgba(255, 255, 255, 0.5) !default;
+
+
+
+/// Buttons's hover
+/// @type Color
+$btn-hov-grey: rgb(223, 223, 223);
+
+/// Button's action
+/// @type Color
+$btn-act-grey: rgb(213, 213, 213);
+
+
+
+///Lengths of buttons
+/// @type Length
+$btn-height: 50px !default;
+
+/// Buttons's tiny width
+/// @type Length
+$tin-width: 160px !default;
+
+/// Buttons's small width
+/// @type Length
+$sml-width: 200px !default;
+
+/// Buttons's  medium width
+/// @type Length
+$mid-width: 219px !default;
+
+/// Buttons's big width
+/// @type Length
+$big-width: 240px !default;
+
+/// Buttons's huge width
+/// @type Length
+$hug-width: 260px !default;
+
