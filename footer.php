@@ -11,31 +11,31 @@
 		<h3 class="social-title">Наш адрес:</h3>
 		<p class="social-subtitle">
 			Вологодская область, <br> г. Вологда,
-			ул. Некрасова, 47 р-н Заречье</p>
+			ул. Каменный мост, д. 6, оф. 4</p>
 	</div>
 	<div class="social-list">
 		<ul class="social-items">
 			<li class="social-item">
-				<a class="social-item-link" href="tel:+79215306177">
+				<a class="social-item-link" href="tel:8(817)270-10-61">
 					<span class="social-item-prepend">
 						<svg class="social-item-icon">
 							<use xlink:href="#tel"></use>
 						</svg>
 					</span>
-					<span class="social-item-text">+7(921)530-61-77</span>
+					<span class="social-item-text">8(817)270-10-61</span>
 				</a>
 			</li>
 			<li class="social-item">
-				<a class="social-item-link" href="mailto:smirnov500@mail.ru">
+				<a class="social-item-link" href="mailto:textrans.invest@mail.ru">
 					<span class="social-item-prepend">
 						<svg class="social-item-icon">
 							<use xlink:href="#mail"></use>
 						</svg>
 					</span>
-					<span class="social-item-text">smirnov500@mail.ru</span>
+					<span class="social-item-text">textrans.invest@mail.ru</span>
 				</a>
 			</li>
-			<li class="social-item">
+			<!--<li class="social-item">
 				<a class="social-item-link" href="https://wa.me/+79215306177">
 					<span class="social-item-prepend">
 						<svg class="social-item-icon">
@@ -44,11 +44,11 @@
 					</span>
 					<span class="social-item-text">WhatsApp</span>
 				</a>
-			</li>
+			</li>-->
 		</ul>
 	</div>
 	<div class="copyright">
-		<p>© 2021 Excavator35</p>
+		<p>© 2022 TechTransInvest</p>
 	</div>
 </footer><!-- #colophon -->
 
