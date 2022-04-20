@@ -1,4 +1,5 @@
 import '@babel/polyfill';
+
 import General from './_generalScripts';
 import Leaflet from './_initLeaflet';
 import LinkTop from './_initLinkTop';
