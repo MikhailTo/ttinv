@@ -9,7 +9,8 @@
 
 // vendors
 @import "vendors/normalize",
-        "node_modules/bootstrap/scss/bootstrap";
+        "node_modules/bootstrap/scss/bootstrap",
+        "node_modules/slick-carousel/slick/slick.scss";
 
 // base
 @import "base/fonts",

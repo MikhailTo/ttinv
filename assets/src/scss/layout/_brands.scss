@@ -1,0 +1,10 @@
+.brands {
+    position: relative;
+    display: flex;
+    z-index: -1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 100px;
+}

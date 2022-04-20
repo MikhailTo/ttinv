@@ -78,7 +78,8 @@
     "latest-version": "^6.0.0",
     "leaflet": "^1.7.1",
     "node-sass": "^4.14.1",
-    "popper.js": "1.16.1"
+    "popper.js": "1.16.1",
+    "slick-carousel": "^1.8.1"
   },
   "bugs": {
     "url": "https://github.com/oguilleux/webpack-gulp-wordpress-starter-theme/issues"

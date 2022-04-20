@@ -1,8 +1,9 @@
 .intro {
+	
 
-	height: 713px;
+	min-height: 713px;
 	width: 100%;
-	background: bottom url('../img/bg-intro.jpg') $dark-grey no-repeat;
+	//background: bottom url('../img/bg-intro.jpg') $dark-grey no-repeat;
 
 	&__inner {
 		z-index: 1;

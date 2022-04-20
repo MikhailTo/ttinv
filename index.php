@@ -14,6 +14,10 @@
 
         <?php include( 'partials/benefit.php' ); ?>
 
+        <!-- brands -->
+
+        <?php include( 'partials/brands.php' ); ?>
+
         <!-- cards -->
 
         <?php include( 'partials/cards.php' ); ?>
