@@ -59,9 +59,10 @@
 		<div class="site-branding">
 			<h1 class="site-title">
 				<a id="logo" class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img class="logo__image"
+					<!--<img class="logo__image"
 						src="<?php bloginfo('template_directory'); ?>/assets/dist/img/logo.png"
-                        width="205" height="70" alt="ТехТрансИнвест">
+                        width="205" height="70" alt="ТехТрансИнвест">-->
+						<img class="logo__image" alt="ТехТрансИнвест" src="<?php bloginfo('template_directory'); ?>/assets/dist/svg/logo.svg">
 				</a>
 				
 			</h1>
