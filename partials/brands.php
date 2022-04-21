@@ -2,7 +2,7 @@
 
     <div class="caption">
         <h3 class="caption__title">
-            Бренды, с которыми мы работаем
+            Бренды с которыми мы работаем
         </h3>
         <span class="line line--short"></span>
         <!--<p class="caption__subtitle"></p>-->

@@ -1,5 +1,5 @@
 import '@babel/polyfill';
-
+import ItcSubmitForm from './_formProcessing';
 import General from './_generalScripts';
 import Leaflet from './_initLeaflet';
 import LinkTop from './_initLinkTop';
@@ -22,6 +22,12 @@ const App = {
 			return new Leaflet();
 		}
 		initLeaflet();
+
+
+		function initSubmitForm() {
+			return new ItcSubmitForm();
+		}
+		initSubmitForm();
 
 		// Link go to top of page
 		function initLinkTop() {
