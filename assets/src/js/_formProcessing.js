@@ -140,8 +140,18 @@ class ItcSubmitForm {
     // при успешной отправки формы
     if (data['result'] === 'success') {
       this._elForm.dispatchEvent(new Event('success'));
+      // при возникновении события success на <form>
+    const elSuccess = this._elForm.querySelector('.form__result-success');
+    elSuccess.classList.remove('d-none');
+    /* при нажатии кнопки .form-success__btn, расположенной в сообщении
+    document.querySelector('.form-success__btn').addEventListener('click', (e) => {
+      form.reset();
+      e.target.closest('.form__footer').querySelector('.form__result-success').classList.add('d-none');
+    });*/
       return;
     }
+
+    
 
     this._elForm.querySelector('.form__error').classList.remove('form__error-hidden');
 

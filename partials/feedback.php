@@ -83,13 +83,14 @@
                 <button class="button" type="submit">Отправить</button>
             </div>
         </div>
-    </form>
-
-    <!-- Сообщение об успешной отправки формы -->
+        <!-- Сообщение об успешной отправки формы -->
     <div class="form__result-success d-none">
-        <div>Форма успешно отправлена. Нажмите на <a href="#" data-target="#feedback-form">ссылку</a>, чтобы отправить
+        <div>Форма успешно отправлена. Нажмите на <a class="form-success__link" href="#" data-target="#feedback-form">ссылку</a>, чтобы отправить
             ещё одно сообщение.</div>
     </div>
+    </form>
+
+    
 
 
 
